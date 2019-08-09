@@ -1,0 +1,11 @@
+#list-comment{
+	overflow		:auto;	
+	max-height		:400px;
+}
+.mash-div{	
+	background		:url(mash-div.png) repeat-x;
+	height			:20px;
+	width			:760px;
+	position		:absolute;
+	border-top		:1px solid #d2d2d2;
+}

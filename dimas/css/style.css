@@ -1,0 +1,132 @@
+*{margin:0;padding:0;}
+body{
+	background:#CCC;
+	font:.78em segoe ui, verdana, arial, sans-serif;/*font: .70em/1.5em  Verdana, Tahoma, Helvetica, sans-serif;*/
+	color: #333; 
+}
+
+.wrapper{ width:860px; margin:0 auto; }
+#header{ height:100px; }
+#header #logo img{ float:left;}
+#header #logo div.logo1{ padding-top:20px; font-size:18px; font-weight:bold; color:#2c2c2c;}
+#header #logo div.logo2{ margin-top:5px; color:#686868;}
+
+#header-menus{ height:46px; }
+#header-menus div.menus{ 
+	background:#005ead;	
+	border-top:3px solid #b9b8b8; 
+	border-left:3px solid #b9b8b8; 
+	border-right:3px solid #b9b8b8; 
+}
+#header-menus ul{
+	z-index				:999999;
+	margin				:0 -1px 0 0;
+	list-style			:none;
+	height				:43px;
+}
+#header-menus li{
+	display				:inline;
+	margin				:0;
+	padding				:0;
+	line-height			:43px;
+}
+#header-menus a{
+	float				:left;
+	background			:transparent;
+	margin				:0;
+	padding:0 20px;
+	text-decoration		:none;
+	color				:#fff;
+	font-weight:bold;
+	
+}
+#header-menus a:hover{
+	color				:#fff;
+	background			:#1780d8;
+}
+
+
+#content{ }
+#content div.content-bg{ 
+	min-height:300px; 
+	padding:5px; 
+	background:#fff;
+	border-left:3px solid #b9b8b8; 
+	border-right:3px solid #b9b8b8;  
+}
+
+#content div.content-bg .frontimage{ 
+ 
+	height:300px;
+	background:#f2f2f2 url(../images/front.jpg) center;
+	border-bottom:3px solid #ddd;
+}
+
+#content div.content-bg .frontimage #frontbox{
+	width:350px;
+	padding-top:30px;
+	padding-left:20px;
+}
+#content div.content-bg .frontimage #frontbox .frontbox-h{
+	font-size:32px;
+	font-weight:bold;
+	color:#fff;
+}
+#content div.content-bg .frontimage #frontbox .frontbox-c{
+	font-size:14px;
+	color:#fff;
+}
+
+#content div.content-bg .frontbuttonstart{margin:30px 0;}
+#content div.content-bg .frontbuttonstart a.button{ 
+	border:1px solid #00F; 
+	padding:20px; 
+	background:#03C; 
+	font-weight:bold; 
+	color:#fff; 
+}
+
+#content div.content-bg .frontbuttonstart a.button:hover{
+	background:#3f88de;
+}
+#content div.content-bg #box-head{
+	border:1px solid #ddd;
+	padding:3px;
+	line-height:30px;
+	font-weight:bold;
+	background:#f2f2f2;
+	margin-bottom:3px;
+}
+#content div.content-bg #box-content{
+}
+
+table{
+	border:1px solid #ddd;
+	margin-bottom:20px;
+}
+table tr td{
+	border:1px solid #ddd;
+	padding:3px;
+}
+table input[type="text"]{
+	padding:4px;
+	border:1px solid #ddd;
+	background:#f2f2f2;
+}
+table input[type="text"]:hover{
+	border:1px solid #F60;
+}
+input[type="submit"]{
+	padding:4px;
+	cursor:pointer;
+}
+
+#footer{}
+#footer div.footer-bg{ 
+	background:#093562; 
+	color:#fff; 
+	padding:10px 5px; 
+	border-left:3px solid #b9b8b8; 
+	border-right:3px solid #b9b8b8; 
+	border-bottom:3px solid #b9b8b8;
+}

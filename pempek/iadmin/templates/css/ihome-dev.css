@@ -1,0 +1,355 @@
+/*
+ * Project: Home Widget Panel
+ * Version: 1.1
+ * For: Modif developer
+ */
+/*
+ * Panel Tabs & Tabsa
+ */
+ 
+.tabs-content{
+	position:static;
+}
+.tab_view_post,
+.tab_referr_urls,
+.tab_stat,
+.tab_recent_reg {
+	padding: 2px;
+}
+.tab_view_post ul.ul-box,
+.tab_referr_urls ul.ul-box,
+.tab_stat ul.ul-box,
+.tab_recent_reg ul.ul-box {
+	
+}
+ul.view_post, 
+ul.referr_urls, 
+ul.stat, 
+ul.recent_reg {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style: none;
+	height: 25px;
+	margin-right:20px;
+	margin-top:-36px;
+}
+ul.view_post li, 
+ul.referr_urls li, 
+ul.stat li, 
+ul.recent_reg li {
+	float: right;
+	margin: 0;
+	padding: 0;
+	height: 23px;
+	line-height: 23px;
+	border: 1px solid #ccc;
+	border-buttom:none;
+	margin-right:2px;
+	margin-left:2px;
+	overflow: hidden;
+	font-weight:normal;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+}
+ul.view_post li a, 
+ul.referr_urls li a, 
+ul.stat li a, 
+ul.recent_reg li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	padding: 0 3px 0 2px;
+	outline: none;
+}
+ul.view_post li a:hover, 
+ul.referr_urls li a:hover, 
+ul.stat li a:hover, 
+ul.recent_reg li a:hover {
+	background: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+}
+html ul.view_post li.active,
+html ul.referr_urls li.active,
+html ul.stat li.active, 
+html ul.recent_reg li.active, 
+
+html ul.view_post li.active a:hover,
+html ul.referr_urls li.active a:hover, 
+html ul.stat li.active a:hover
+html ul.recent_reg li.active a:hover   { 
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+	border-bottom-style:dotted;
+}
+
+
+.ul-box{
+	list-style:none;
+	margin:0;
+	display:block;
+	color:#000;
+	text-decoration:none;
+	padding:5px 5px 2px 10px;
+	min-height:18px;
+	font-weight:normal;
+}
+ul.ul-box{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-bottom:5px;
+}
+ul.ul-box li{
+	margin:0;	
+	display:block;
+	padding:3px 0 2px 0;
+	min-height:14px;
+	font-weight:normal;
+	color:#526ea7;
+	border-bottom:1px solid #cccccc;
+	border-style:dotted;
+}
+ul.ul-box li span{
+	float:right;
+	margin-left:2px;
+	color:#3b5998;
+	font-weight:normal;
+	font-size:9px;
+	background:#fff;
+	color:#000;
+	border:1px solid #d8dfea;
+	padding:0 3px 0 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-khtml-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/*
+ * Statistik
+ */
+ 
+div.progress{
+	list-style:none;
+}
+
+div.progress-container {
+  border: 1px solid #ccc; 
+  padding: 1px; 
+  background: white;
+  margin-bottom:3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+div.progress .green {
+  background:url(../images/progress-green.gif) repeat-x;
+}
+div.progress .blue {
+  background:url(../images/progress-blue.gif) repeat-x;
+}
+div.progress .orange {
+  background:url(../images/progress-orange.gif) repeat-x;
+}
+div.progress div.total{
+  border: 1px solid #ccc; 
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+div.progress div.total span{
+	font-size:9px;
+    font-weight:normal;
+    color:#000;
+	margin-left:5px;
+}
+div.progress div.total span.fw{
+	padding:0 10px 0 10px;
+	color:#fff;
+}
+div.progress-container > span {
+	position:absolute;
+	font-size:9px;
+    font-weight:normal;
+    color:#000;
+	text-shadow:1px 1px 1px #fff;
+}
+div.progress-container > span.no {
+	margin-left:5px;
+	width:20px;
+}
+div.progress-container > span.name {
+	margin-left:25px;
+}
+div.progress-container > span.persent {
+	margin-left:170px;
+}
+div.progress-container > div { 
+  height: 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+/*
+ * Control Panel
+ */
+ 
+.pagesNav{
+	text-align:center;
+	padding:3px
+}
+.pagesNav a{
+ 	padding:2px;
+	margin:0 2px 0 2px;
+	border:1px solid #ddd;
+}
+.pagesNav a:hover{
+	border:1px solid #ccc;
+}
+/*
+ * Control Panel
+ */
+
+#qpanel-content{
+	padding:0;
+	margin-top:-11px;
+}
+#qpanel-content a:hover{
+	text-decoration:none;
+}
+#qpanel-content table{
+	width:100%;
+}
+#qpanel-content table tr{
+}
+#qpanel-content table tr td{
+	width:50%;
+}
+.panel-frame{
+	width:90%;
+	height:32px;
+	padding:5px;
+	border:1px solid #ccc;	
+	border-top:0;
+	margin-top:-2px;
+	/*
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	*/
+	background:url(../images/panel-frame.gif) repeat-x;
+}
+a .panel-frame{
+	border-color:#ccc;
+}
+a:hover .panel-frame{
+	border-left-color:#aaa;
+	border-right-color:#aaa;
+	background:url(../images/panel-frame.gif) repeat-x;
+}
+.panel-ico{
+	/*border:1px solid #ccc;*/
+	width:40px;
+	height:40px;
+	float:left;
+	background:url(../images/panel.png) repeat-x;
+	position:relative;
+}
+.panel-ico-text{
+	margin-left:40px;
+	color:#666;
+	text-align:left;
+}
+.panel-ico-text span{
+	font-weight:700;
+	color:#000;
+}
+.ico-media{background-position:0 0px;width:35px;height:32px;}
+.ico-menus{background-position:0 -65px;width:35px;height:32px;}
+.ico-sidebar{background-position:0 -98px;width:35px;height:32px;}
+.ico-options{background-position:0 -260px;width:35px;height:32px;}
+.ico-layout{background-position:0 -130px;width:35px;height:32px;}
+.ico-backup{background-position:0 -324px;width:35px;height:32px;}
+.ico-users{background-position:0 -292px;width:35px;height:32px;}
+.ico-plugins{background-position:0 -195px;width:35px;height:32px;}
+.ico-blocks{background-position:0 -33px;width:35px;height:32px;}
+.ico-gallery{background-position:0 -228px;width:35px;height:32px;}
+.ico-applications{background-position:0 -163px;width:35px;height:32px;}
+.ico-seo{background-position:0 -357px;width:35px;height:32px;}
+
+
+.panel-frame:hover .ico-media{background-position:35px 0px;width:35px;height:32px;}
+.panel-frame:hover .ico-menus{background-position:35px -65px;width:35px;height:32px;}
+.panel-frame:hover .ico-sidebar{background-position:35px -98px;width:35px;height:32px;}
+.panel-frame:hover .ico-options{background-position:35px -260px;width:35px;height:32px;}
+.panel-frame:hover .ico-layout{background-position:35px -130px;width:35px;height:32px;}
+.panel-frame:hover .ico-backup{background-position:35px -324px;width:35px;height:32px;}
+.panel-frame:hover .ico-users{background-position:35px -292px;width:35px;height:32px;}
+.panel-frame:hover .ico-plugins{background-position:35px -195px;width:35px;height:32px;}
+.panel-frame:hover .ico-blocks{background-position:35px -33px;width:35px;height:32px;}
+.panel-frame:hover .ico-gallery{background-position:35px -228px;width:35px;height:32px;}
+.panel-frame:hover .ico-applications{background-position:35px -163px;width:35px;height:32px;}
+.panel-frame:hover .ico-seo{background-position:35px -357px;width:35px;height:32px;}
+
+.column{
+	width:378px;
+}
+.column0{
+	float:left;
+}
+.column1{
+	float:right;
+}
+.column .dragbox{
+	margin:5px 2px  2px;
+	position:relative;
+	border:1px solid #ccc;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+	background:#f7f7f7 url('../images/head-h3.gif') repeat-x;
+	
+}
+.column .dragbox h3{
+	border-bottom:1px solid #ccc;
+	padding:8px 5px 5px 5px;
+	font-weight:700;
+	font-size:11px;
+	cursor:pointer;
+}
+.dragbox-content{
+	margin:0 2px 2px 2px;
+}
+.column  .placeholder{
+	border:dashed 1px gray !important;
+	background:#f2f2f2 url('../images/Logo_System-ID-03.png') no-repeat center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+}
+.dragbox h3.collapse{
+	background:url('../images/collapse.png') no-repeat right;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+}
+.dragbox h3 .configure{
+	font-size:11px; 
+	font-weight:normal;
+	margin-right:30px; 
+	float:right;
+}

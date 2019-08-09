@@ -1,0 +1,52 @@
+#list-comment{
+	overflow		:auto;	
+	max-height		:300px;
+}
+.mash-div{	
+	background		:url(mash-div.png) repeat-x;
+	height			:20px;
+	width			:570px;
+	position		:absolute;
+	border-top		:1px solid #d2d2d2;
+}
+div.no{
+	width:20px;
+	height:20px;
+	line-height:20px;
+	margin-top:5px;
+	border:1px solid #dedede;
+	float:left;
+	margin-right:2px;
+	text-align:center;
+}
+div.no-input{
+}
+div.no-input .no-title{
+	border:1px solid #dedede;
+	width:116px;
+	height:20px;
+	float:left;
+	line-height:20px;
+	margin-top:5px;
+	padding-left:2px;
+	margin-right:3px;
+}
+div.no-input .no-type{
+	border:1px solid #dedede;
+	width:49px;
+	height:20px;
+	float:left;
+	line-height:20px;
+	margin-top:5px;
+	padding-left:2px;
+	margin-right:3px;
+}
+div.no-input .no-link{
+	border:1px solid #dedede;
+	width:326px;
+	height:20px;
+	float:left;
+	line-height:20px;
+	margin-top:5px;
+	padding-left:2px;
+}

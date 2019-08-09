@@ -1,0 +1,47 @@
+<IfModule mod_rewrite.c> 
+Options -MultiViews
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /cmsid/order/profil-company1
+
+
+RewriteRule ^item-([a-z0-9-]+)-go-([a-z0-9-]+)-to-([a-z0-9-]+).html?$ index.php?com=post&view=item&id=$1&go=$2&to=$3
+RewriteRule ^item-([a-z0-9-]+)-go-([a-z0-9-]+).html?$ index.php?com=post&view=item&id=$1&go=$2
+RewriteRule ^archive-([a-z0-9-]+)-pg-([0-9]+).html?$ index.php?com=post&view=archive&id=$1&pg=$2
+RewriteRule ^category-([a-z0-9-]+)-pg-([0-9]+).html?$ index.php?com=post&view=category&id=$1&pg=$2
+RewriteRule ^tags-([a-z0-9-]+)-pg-([0-9]+).html?$ index.php?com=post&view=tags&id=$1&pg=$2
+
+
+RewriteRule ^page-([a-z0-9-]+).html?$ index.php?com=page&id=$1
+RewriteRule ^item-([a-z0-9-]+).html?$ index.php?com=post&view=item&id=$1
+RewriteRule ^archive-([a-z0-9-]+).html?$ index.php?com=post&view=archive&id=$1
+RewriteRule ^category-([a-z0-9-]+).html?$ index.php?com=post&view=category&id=$1
+RewriteRule ^tags-([a-z0-9-]+).html?$ index.php?com=post&view=tags&id=$1
+
+
+RewriteRule ^([a-z-]+)-([a-z0-9-]+)-pg-([0-9]+).html?$ index.php?com=post&view=$1&id=$2&pg=$3
+
+
+RewriteRule ^([a-z-]+)-([a-z0-9-]+)-go-([a-z0-9]+)-to-([a-z0-9]+).html?$ index.php?com=post&view=$1&id=$2&go=$3&to=$4
+RewriteRule ^([a-z-]+)-([a-z0-9-]+)-go-([a-z0-9]+).html?$ index.php?com=post&view=$1&id=$2&go=$3
+
+
+RewriteRule ^([a-z-]+)/([a-z-]+)/([a-z0-9-]+)/([a-z0-9-]+)/pg/([0-9]+).html?$ index.php?com=$1&view=$2&id=$3&pg=$5
+RewriteRule ^([a-z-]+)/([a-z-]+)/([a-z0-9-]+)/pg/([0-9]+).html?$ index.php?com=$1&view=$2&id=$3&pg=$4
+RewriteRule ^([a-z-]+)/([a-z-]+)/pg/([0-9]+).html?$ index.php?com=$1&view=$2&pg=$3
+RewriteRule ^([a-z-]+)/pg/([0-9]+).html?$ index.php?com=$1&pg=$2
+
+
+RewriteRule ^([a-z-]+)/([a-z-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z]+)/([a-z0-9]+)/([a-z]+)/([a-z0-9]+).html?$ index.php?com=$1&view=$2&id=$3&$5=$6&$7=$8
+RewriteRule ^([a-z-]+)/([a-z-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z]+)/([a-z0-9]+).html?$ index.php?com=$1&view=$2&id=$3&$5=$6
+RewriteRule ^([a-z-]+)/([a-z-]+)/([a-z0-9-]+)/([a-z0-9-]+).html?$ index.php?com=$1&view=$2&id=$3
+RewriteRule ^([a-z-]+)/([a-z-]+)/([a-z0-9-]+).html?$ index.php?com=$1&view=$2&id=$3
+RewriteRule ^([a-z-]+)/([0-9]+)/([a-z0-9-]+).html?$ index.php?com=$1&id=$2
+RewriteRule ^([a-z-]+)/([a-z-]+).html?$ index.php?com=$1&view=$2
+RewriteRule ^([a-z-]+).html?$ index.php?com=$1
+</IfModule>
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</Files>

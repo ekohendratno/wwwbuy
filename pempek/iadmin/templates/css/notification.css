@@ -1,0 +1,102 @@
+.notification-wrap {
+    width: 99.8%;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    }
+
+.notification-wrap .notification {
+    min-height: 30px;
+    display: block;
+    position: relative;
+	border:1px solid #ccc;
+    }
+
+.notification-wrap .notification span {
+    background: url(../images/close.png) no-repeat right top;
+    display: block;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: -9px;
+    right: -8px
+    }
+
+.notification-wrap .notification .text {
+    overflow: hidden
+    }
+
+.notification-wrap .notification p {
+    width: 100%;
+    color: #323232;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: justify;
+    float: right;
+    margin-right: 15px;
+    /*for lt IE8*/
+    /* TEXT SHADOW */
+    text-shadow: 0 0 1px #f9f9f9
+    }
+
+.notification-wrap .description {
+    position: relative;
+    min-height: 15px;
+    width: 95%;
+    margin: auto;
+    background: #fff;
+    /*Border Radius*/
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px
+    }
+
+.notification-wrap .description p {
+    margin: 0;
+    padding: 15px;
+    font-size: 11px;
+    color: #999;
+    line-height: 18px;
+    text-align: justify;
+    /* TEXT SHADOW */
+    text-shadow: 0 0 1px #fff
+    }
+
+.notification-wrap .description span {
+    display: block;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    bottom: -9px;
+    right: -8px;
+    background-image: url(../images/open-close.png);
+    background-repeat: no-repeat
+    }
+
+.btn-desc {
+    background-position: left
+    }
+
+.note_close {
+    background-position: right
+    }
+.note_info {
+    background: #f2f2f2
+    }
+
+.note_info:before {
+    content: url(../images/info.png);
+    float: left;
+    margin: 5px 5px 0 15px
+    }
+
+.note_info strong {
+    color: #177fb2;
+    margin-right: 15px;
+    margin-left: 15px
+    }
+

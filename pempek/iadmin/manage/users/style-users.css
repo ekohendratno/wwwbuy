@@ -1,0 +1,25 @@
+#list-comment{
+	overflow		:auto;	
+	max-height		:400px;
+}
+.mash-div{	
+	background		:url(mash-div.png) repeat-x;
+	height			:20px;
+	width			:570px;
+	position		:absolute;
+	border-top		:1px solid #d2d2d2;
+}
+.comment{
+	padding			:2px;
+	padding-bottom	:7px;
+}
+.comment .name{
+	font-weight		:700;
+}
+.avatar{
+	float			:left;
+	margin-top		:2px;
+	margin-right	:10px;
+}
+div.comment p.row-actions :hover {
+}

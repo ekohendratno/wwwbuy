@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<themes>
+    <name>Deliccio</name>
+    <version>1.1</version>
+    <creationDate>November 04, 2011</creationDate>
+    <author>Eko Azza</author>
+    <authorEmail>admin@cmsid.org</authorEmail>
+    <authorUrl>http://www.cmsid.org</authorUrl>
+    <copyright>${copyright}</copyright>
+    <license>${licence}</license>
+    <description>${descritpion}</description>
+</themes>

@@ -1,0 +1,11 @@
+#body-layout-center{
+	min-height	:100px;
+}
+#body-layout-center .body-layout{
+	float		:left;
+	text-align	:center;
+	margin-right:20px;
+}
+#body-layout-center .layout-image{
+	border		:1px solid #ccc;
+}
